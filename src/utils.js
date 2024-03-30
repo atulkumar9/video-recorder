@@ -1,6 +1,5 @@
 export const debounce = (func, delay) => {
   let timeoutId;
-
   return function () {
     const context = this;
     const args = arguments;

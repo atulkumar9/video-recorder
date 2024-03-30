@@ -91,6 +91,7 @@ const useVideoRecorder = () => {
 
   const resetRecorder = () => {
     setRecordedVideo(null);
+    setMediaRecorderState("");
   };
 
   const pauseRecording = async () => {
